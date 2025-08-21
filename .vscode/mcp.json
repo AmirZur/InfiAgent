@@ -1,0 +1,14 @@
+{
+    "servers": {
+        "DataAgent": {
+            "type": "stdio",
+            "command": "uv",
+            "args": [
+                "run", 
+                "mcp", 
+                "run",
+                "mcp_server.py"
+            ]
+        }
+    }
+}
